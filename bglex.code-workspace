@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"licenser.license": "MIT",
+		"licenser.author": "Edward Yang",
+		"licenser.projectName": "BGLEx",
+		"files.associations": {
+			"bitset": "cpp",
+			"set": "cpp"
+		}
+	}
+}
