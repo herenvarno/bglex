@@ -5,9 +5,9 @@
 
 using namespace bglex;
 
-BOOST_AUTO_TEST_CASE(test1)
-{
-  typedef boost::adjacency_list<boost::vecS, boost::vecS, boost::directedS> Graph;
+BOOST_AUTO_TEST_CASE(test1) {
+  typedef boost::adjacency_list<boost::vecS, boost::vecS, boost::directedS>
+      Graph;
   Graph G(6);
   boost::add_edge(0, 1, G);
   boost::add_edge(1, 2, G);
@@ -23,11 +23,9 @@ BOOST_AUTO_TEST_CASE(test1)
   cycles = bglex::simple_cycles<Graph>(G);
 
   BOOST_CHECK_EQUAL(cycles.size(), reference.size());
-  for (auto n = 0; n < cycles.size(); n++)
-  {
+  for (auto n = 0; n < cycles.size(); n++) {
     BOOST_CHECK_EQUAL(cycles[n].size(), reference[n].size());
-    for (auto m = 0; m < cycles[n].size(); m++)
-    {
+    for (auto m = 0; m < cycles[n].size(); m++) {
       BOOST_CHECK_EQUAL(cycles[n][m], reference[n][m]);
     }
   }

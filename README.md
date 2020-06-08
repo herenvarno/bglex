@@ -7,4 +7,6 @@ Extension for common graph manipulation algorithms that are not included in Boos
 ### Project Progress
 | Progress  | Function Name | Description |
 | ------------- | ------------- | ------------- |
-| ⚫️⚫️⚫️⚫️⚪️ | **simple_cycles()** | Find all elementary circuits in a directed graph|
+| ⚫️⚫️⚫️⚫️⚫️ | **simple_cycles()** | Find all elementary circuits in a directed graph|
+| ------------- | ------------- | ------------- |
+| ⚫️⚫️⚫️⚫️⚫️ | **all_topological_sorts()** | Find all topological sorts in a directed graph|
